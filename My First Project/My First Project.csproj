@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1074CBB1-5E4F-4E79-996B-66B4BD7A7588}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>My_First_Project</RootNamespace>
+    <AssemblyName>My First Project</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>My_First_Project.MainRunner</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chapter 1\All Data Types.cs" />
+    <Compile Include="Chapter 1\Even  Odd Checker.cs" />
+    <Compile Include="Chapter 1\First Calculator Program.cs" />
+    <Compile Include="Chapter 1\Modulus Program.cs" />
+    <Compile Include="Chapter 1\Operators.cs" />
+    <Compile Include="Chapter 1\Store User Data.cs" />
+    <Compile Include="Chapter 1\Var  Const.cs" />
+    <Compile Include="Chapter 2\For Loops\Alphabets A to Z.cs" />
+    <Compile Include="Chapter 2\For Loops\Divisible by 5.cs" />
+    <Compile Include="Chapter 2\For Loops\Even Numbers.cs" />
+    <Compile Include="Chapter 2\For Loops\Factorial.cs" />
+    <Compile Include="Chapter 2\For Loops\Main For Loop.cs" />
+    <Compile Include="Chapter 2\For Loops\Odd Numbers.cs" />
+    <Compile Include="Chapter 2\For Loops\Print  5 times.cs" />
+    <Compile Include="Chapter 2\For Loops\Print Numbers.cs" />
+    <Compile Include="Chapter 2\For Loops\Reverse.cs" />
+    <Compile Include="Chapter 2\For Loops\Squares of Num.cs" />
+    <Compile Include="Chapter 2\For Loops\Sum of N.cs" />
+    <Compile Include="Chapter 2\For Loops\Table of N.cs" />
+    <Compile Include="Chapter 2\For Loops\Using For Loop  Multiplication.cs" />
+    <Compile Include="Chapter 2\IF Statements\Calculator Using IF.cs" />
+    <Compile Include="Chapter 2\IF Statements\GreetClock_Using_if.cs" />
+    <Compile Include="Chapter 2\IF Statements\GuessAge.cs" />
+    <Compile Include="Chapter 2\IF Statements\IfStatements.cs" />
+    <Compile Include="Chapter 2\IF Statements\Multiplication Program.cs" />
+    <Compile Include="Chapter 2\Mini Project\Mini Admission Form Try Parse.cs" />
+    <Compile Include="Chapter 2\Numeric Formatting\Currency Formatting.cs" />
+    <Compile Include="Chapter 2\Numeric Formatting\Decimal formatting.cs" />
+    <Compile Include="Chapter 2\Numeric Formatting\DISCOUNT CALCULATOR.cs" />
+    <Compile Include="Chapter 2\Numeric Formatting\Input From User.cs" />
+    <Compile Include="Chapter 2\Switch Statements\Calculator.cs" />
+    <Compile Include="Chapter 2\Switch Statements\Food Menu.cs" />
+    <Compile Include="Chapter 2\Switch Statements\Week Days.cs" />
+    <Compile Include="Chapter 2\Try Parse\Input With Validation.cs" />
+    <Compile Include="Chapter 2\Try Parse\Syntax Try Parse.cs" />
+    <Compile Include="Chapter 2\While Loops With Projects\Do While\Password System.cs" />
+    <Compile Include="Chapter 2\While Loops With Projects\Number Guessing.cs" />
+    <Compile Include="Chapter 2\While Loops With Projects\Password Lock System.cs" />
+    <Compile Include="Chapter 2\Mini Project\CodeX_MultiplicationGame.cs" />
+    <Compile Include="Chapter 2\While Loops With Projects\Multiplication.cs" />
+    <Compile Include="Chapter 2\While Loops With Projects\Syntax.cs" />
+    <Compile Include="MainRunner.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
