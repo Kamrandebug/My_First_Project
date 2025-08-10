@@ -53,6 +53,8 @@
     <Compile Include="Chapter 1\Operators.cs" />
     <Compile Include="Chapter 1\Store User Data.cs" />
     <Compile Include="Chapter 1\Var  Const.cs" />
+    <Compile Include="Chapter 2\Exercise Ch2\Fizz Buzz Game.cs" />
+    <Compile Include="Chapter 2\Exercise Ch2\Table.cs" />
     <Compile Include="Chapter 2\For Loops\Alphabets A to Z.cs" />
     <Compile Include="Chapter 2\For Loops\Divisible by 5.cs" />
     <Compile Include="Chapter 2\For Loops\Even Numbers.cs" />

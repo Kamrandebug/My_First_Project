@@ -1,5 +1,6 @@
 ﻿using My_First_Project.Chapter_1;
 using My_First_Project.Chapter_2;
+using My_First_Project.Chapter_2.Exercise_Ch2;
 using My_First_Project.Chapter_2.For_Loops;
 using My_First_Project.Chapter_2.IF_Statements;
 using My_First_Project.Chapter_2.Mini_Project;
@@ -111,7 +112,7 @@ namespace My_First_Project
             //   While Loops
 
             // 1.Password Lock System
-            //  Password_Lock_System.Run();
+            //   Password_Lock_System.Run();
 
             // 2. Number Guessing Game
             //    Number_Guessing.Run();
@@ -148,7 +149,15 @@ namespace My_First_Project
 
             // Input_With_Validation.Run();
 
-            Mini_Admission_Form_Try_Parse.Run();
+            //    Mini_Admission_Form_Try_Parse.Run();
+
+
+
+            // Exercise Programs Chapter 2
+
+            // Table.Run();
+             Fizz_Buzz_Game.Run();
+
 
 
             Console.WriteLine();
