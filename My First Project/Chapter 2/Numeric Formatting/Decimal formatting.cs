@@ -16,7 +16,7 @@ namespace My_First_Project.Chapter_2.Numeric_Formatting
 
             double number = 1234.5678;
 
-            // Basic decimal formatting
+            // Basic decimal formatting Using String Interpolation
 
             Console.WriteLine("Original Number: " + number);
 

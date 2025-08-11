@@ -10,6 +10,7 @@ using My_First_Project.Chapter_2.Try_Parse;
 using My_First_Project.Chapter_2.While_Loops;
 using My_First_Project.Chapter_2.While_Loops_With_Projects;
 using My_First_Project.Chapter_2.While_Loops_With_Projects.Do_While;
+using My_First_Project.Chapter_3;
 using System;
 
 namespace My_First_Project
@@ -52,9 +53,9 @@ namespace My_First_Project
 
             //  Run Chapter 2
 
-            Console.WriteLine("Chapter 2 Started ....");
+            //Console.WriteLine("Chapter 2 Started ....");
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
             //   My_First_Project.Chapter_2.Input_Output.Run();
 
@@ -156,19 +157,34 @@ namespace My_First_Project
             // Exercise Programs Chapter 2
 
             // Table.Run();
-             Fizz_Buzz_Game.Run();
+           //  Fizz_Buzz_Game.Run();
+
+            //Console.WriteLine();
+
+            //Console.WriteLine("Chapter 2 Ended !!!!!");
+
+            //Console.WriteLine();
 
 
+            //  Run Chapter 3
 
+            Console.WriteLine("Chapter 3 Started ....");
             Console.WriteLine();
 
-            Console.WriteLine("Chapter 2 Ended !!!!!");
+            // Escape_Characters.Run();
+
+            // Verbatim_String.Run();
+
+            // String_Formatting.Run();
+
+            // String_Interpolation.Run();
+
+            // Empty_String.Run();
 
             Console.WriteLine();
-            Console.WriteLine();
+            Console.WriteLine("Chapter 3 Ended !!!!!");
 
-        
-    }
-    
+        }
+
     }
 }
