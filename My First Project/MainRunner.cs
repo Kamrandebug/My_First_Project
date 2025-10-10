@@ -11,6 +11,8 @@ using My_First_Project.Chapter_2.While_Loops;
 using My_First_Project.Chapter_2.While_Loops_With_Projects;
 using My_First_Project.Chapter_2.While_Loops_With_Projects.Do_While;
 using My_First_Project.Chapter_3;
+using My_First_Project.Chapter_3.Practice;
+using My_First_Project.Chapter_3.String_Formatting;
 using System;
 
 namespace My_First_Project
@@ -175,14 +177,24 @@ namespace My_First_Project
 
             // Verbatim_String.Run();
 
-            // String_Formatting.Run();
-
             // String_Interpolation.Run();
 
             // Empty_String.Run();
 
+            // Equals_Function.Run();
+
+            // iteration_looping.Run();    
+
+            // IsNullOrEmpty.Run();
+
+            // Character_Counter.Run();
+
+            // Word_Reverser.Run();
+
+
             Console.WriteLine();
             Console.WriteLine("Chapter 3 Ended !!!!!");
+
 
         }
 

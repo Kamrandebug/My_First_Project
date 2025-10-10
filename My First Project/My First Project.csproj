@@ -89,9 +89,13 @@
     <Compile Include="Chapter 2\Mini Project\CodeX_MultiplicationGame.cs" />
     <Compile Include="Chapter 2\While Loops With Projects\Multiplication.cs" />
     <Compile Include="Chapter 2\While Loops With Projects\Syntax.cs" />
+    <Compile Include="Chapter 3\Practice\Character Counter.cs" />
+    <Compile Include="Chapter 3\Practice\Word Reverser.cs" />
     <Compile Include="Chapter 3\String Formatting\Empty String.cs" />
+    <Compile Include="Chapter 3\String Formatting\Equals Function.cs" />
     <Compile Include="Chapter 3\String Formatting\Escape Characters.cs" />
-    <Compile Include="Chapter 3\String Formatting\String Formatting.cs" />
+    <Compile Include="Chapter 3\String Formatting\IsNullOrEmpty.cs" />
+    <Compile Include="Chapter 3\String Formatting\iteration looping.cs" />
     <Compile Include="Chapter 3\String Formatting\String Interpolation .cs" />
     <Compile Include="Chapter 3\String Formatting\Verbatim String.cs" />
     <Compile Include="MainRunner.cs" />
