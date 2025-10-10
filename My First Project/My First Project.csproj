@@ -90,6 +90,7 @@
     <Compile Include="Chapter 2\While Loops With Projects\Multiplication.cs" />
     <Compile Include="Chapter 2\While Loops With Projects\Syntax.cs" />
     <Compile Include="Chapter 3\Practice\Character Counter.cs" />
+    <Compile Include="Chapter 3\Practice\PasswordChecker.cs" />
     <Compile Include="Chapter 3\Practice\Word Reverser.cs" />
     <Compile Include="Chapter 3\String Formatting\Empty String.cs" />
     <Compile Include="Chapter 3\String Formatting\Equals Function.cs" />

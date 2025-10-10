@@ -191,6 +191,8 @@ namespace My_First_Project
 
             // Word_Reverser.Run();
 
+           //  PasswordChecker.Run();
+
 
             Console.WriteLine();
             Console.WriteLine("Chapter 3 Ended !!!!!");
