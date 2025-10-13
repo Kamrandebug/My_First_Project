@@ -99,6 +99,15 @@
     <Compile Include="Chapter 3\String Formatting\iteration looping.cs" />
     <Compile Include="Chapter 3\String Formatting\String Interpolation .cs" />
     <Compile Include="Chapter 3\String Formatting\Verbatim String.cs" />
+    <Compile Include="Chapter 4\ArrayBasicPractice\EvenOddCounter.cs" />
+    <Compile Include="Chapter 4\ArrayBasicPractice\Largest.cs" />
+    <Compile Include="Chapter 4\ArrayBasicPractice\SumNumbers.cs" />
+    <Compile Include="Chapter 4\Clearing.cs" />
+    <Compile Include="Chapter 4\ForEach.cs" />
+    <Compile Include="Chapter 4\Indexof.cs" />
+    <Compile Include="Chapter 4\JustSyntax.cs" />
+    <Compile Include="Chapter 4\Reversing.cs" />
+    <Compile Include="Chapter 4\Sorting.cs" />
     <Compile Include="MainRunner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -13,6 +13,8 @@ using My_First_Project.Chapter_2.While_Loops_With_Projects.Do_While;
 using My_First_Project.Chapter_3;
 using My_First_Project.Chapter_3.Practice;
 using My_First_Project.Chapter_3.String_Formatting;
+using My_First_Project.Chapter_4;
+using My_First_Project.Chapter_4.ArrayBasicPractice;
 using System;
 
 namespace My_First_Project
@@ -23,7 +25,7 @@ namespace My_First_Project
         {
             Console.WriteLine(" WELCOME TO CodeX! C# PRACTICE HUB \n ");
 
-          //  Practice2.Run();
+            //  Practice2.Run();
 
             //  Run Chapter 1
 
@@ -159,7 +161,7 @@ namespace My_First_Project
             // Exercise Programs Chapter 2
 
             // Table.Run();
-           //  Fizz_Buzz_Game.Run();
+            //  Fizz_Buzz_Game.Run();
 
             //Console.WriteLine();
 
@@ -170,8 +172,8 @@ namespace My_First_Project
 
             //  Run Chapter 3
 
-            Console.WriteLine("Chapter 3 Started ....");
-            Console.WriteLine();
+            //   Console.WriteLine("Chapter 3 Started ....");
+            //   Console.WriteLine();
 
             // Escape_Characters.Run();
 
@@ -191,13 +193,39 @@ namespace My_First_Project
 
             // Word_Reverser.Run();
 
-           //  PasswordChecker.Run();
+            //  PasswordChecker.Run();
 
+
+            //   Console.WriteLine();
+            //   Console.WriteLine("Chapter 3 Ended !!!!!");
+
+
+            //  Run Chapter 4
+
+            Console.WriteLine("Chapter 4 Started ....");
+            Console.WriteLine();
+
+            // JustSyntax.Run();
+
+            // ForEach.Run();
+
+            // SumNumbers.Run();
+
+            // Largest.Run();
+
+            // EvenOddCounter.Run();
+
+            // Sorting.Run();
+
+            // Reversing.Run();
+
+            // Clearing.Run();
+
+            Indexof.Run();
 
             Console.WriteLine();
-            Console.WriteLine("Chapter 3 Ended !!!!!");
-
-
+            Console.WriteLine();
+            Console.WriteLine("Chapter 4 Ended !!!!!");
         }
 
     }
