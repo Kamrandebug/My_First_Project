@@ -15,7 +15,11 @@ using My_First_Project.Chapter_3.Practice;
 using My_First_Project.Chapter_3.String_Formatting;
 using My_First_Project.Chapter_4;
 using My_First_Project.Chapter_4.ArrayBasicPractice;
+using My_First_Project.Chapter_4.ArraysOnly;
+using My_First_Project.Chapter_4.List_And_Dict;
+using My_First_Project.Chapter_4.List_And_Dict.Practice;
 using System;
+using System.Collections.Generic;
 
 namespace My_First_Project
 {
@@ -23,7 +27,7 @@ namespace My_First_Project
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(" WELCOME TO CodeX! C# PRACTICE HUB \n ");
+            Console.WriteLine("WELCOME TO CodeX! C# PRACTICE HUB \n ");
 
             //  Practice2.Run();
 
@@ -221,9 +225,22 @@ namespace My_First_Project
 
             // Clearing.Run();
 
-            Indexof.Run();
+            // Indexof.Run();
 
-            Console.WriteLine();
+            // listSyntax.Run();
+
+            // InputUserList.Run();
+
+            // DictSyntax.Run();
+
+            // GradesDict.Run();
+
+            // LoginDict.Run();
+
+            // listEvenOdd.Run();
+
+            ArrayOfMultiple.Run();
+
             Console.WriteLine();
             Console.WriteLine("Chapter 4 Ended !!!!!");
         }

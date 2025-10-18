@@ -17,7 +17,6 @@ namespace My_First_Project.Chapter_3.String_Formatting
              * each letter of a string one by one, 
              * like reading a TikTok comment section word by word 😏.*/
 
-
             /*
              💡 message.Length → tells how many characters are in the string.
              💡 message[i] → gets the character at position i (index starts from 0).
@@ -31,24 +30,12 @@ namespace My_First_Project.Chapter_3.String_Formatting
                 Thread.Sleep(50);                  // Small delay so the text appears slowly
             }
 
-            Console.WriteLine();                   
+            Console.WriteLine();
 
             // Check if the string contains the letter 'z' using the built-in Contains method
-            
             Console.WriteLine(message.Contains('z'));
 
-            bool contain = false;                  // Variable to track if 'z' is found
-
-            // Loop through the string again to manually check for 'z'
-
-            for (int i = 0; i < message.Length; i++)
-            {
-                if (message[i].Equals('z'))        // If the current character is 'z'
-                {
-                    contain = true;                // Mark contain as true
-                }
-            }
-
+            
         }
     }
 }
