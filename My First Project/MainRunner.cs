@@ -18,6 +18,10 @@ using My_First_Project.Chapter_4.ArrayBasicPractice;
 using My_First_Project.Chapter_4.ArraysOnly;
 using My_First_Project.Chapter_4.List_And_Dict;
 using My_First_Project.Chapter_4.List_And_Dict.Practice;
+using My_First_Project.Chapter_5;
+using My_First_Project.Chapter_5.OutFunctions;
+using My_First_Project.Chapter_5.RefFunctions;
+using My_First_Project.Chapter_5.Exercise;
 using System;
 using System.Collections.Generic;
 
@@ -206,8 +210,8 @@ namespace My_First_Project
 
             //  Run Chapter 4
 
-            Console.WriteLine("Chapter 4 Started ....");
-            Console.WriteLine();
+            //Console.WriteLine("Chapter 4 Started ....");
+            //Console.WriteLine();
 
             // JustSyntax.Run();
 
@@ -239,10 +243,49 @@ namespace My_First_Project
 
             // listEvenOdd.Run();
 
-            ArrayOfMultiple.Run();
+            // ArrayOfMultiple.Run();
+
+            //Console.WriteLine();
+            //Console.WriteLine("Chapter 4 Ended !!!!!");
+
+
+            //  Run Chapter 5
+
+            Console.WriteLine("Chapter 5 Started ....");
+            Console.WriteLine();
+
+
+            //  VoidFunctions.Run();
+
+            //  RETURNTYPE.Run();
+
+            //  Parameter.Run();
+
+            //  Optional.Run();
+
+            //  NamedFunctions.Run();
+
+            //  OutFunctions.Run();
+
+            //  OutEvenOdd.Run();
+
+            //  OutSyntax.Run();
+
+            //  RefSyntax.Run();
+
+            //  DoubleTheValue.Run();
+
+            //  RefSwapping.Run();
+
+            //  RefPower.Run();
+
+            //  AreaTriangle.Run();
+
+            SumOfArray.Run();
+
 
             Console.WriteLine();
-            Console.WriteLine("Chapter 4 Ended !!!!!");
+            Console.WriteLine("Chapter 5 Ended !!!!!");
         }
 
     }

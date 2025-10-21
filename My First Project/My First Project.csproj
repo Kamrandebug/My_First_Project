@@ -115,6 +115,20 @@
     <Compile Include="Chapter 4\List And Dict\Practice\InputUserList.cs" />
     <Compile Include="Chapter 4\List And Dict\Practice\listEvenOdd.cs" />
     <Compile Include="Chapter 4\List And Dict\Practice\LoginSystemDict.cs" />
+    <Compile Include="Chapter 5\Exercise\AreaTriangle.cs" />
+    <Compile Include="Chapter 5\Exercise\SumOfArray.cs" />
+    <Compile Include="Chapter 5\NamedFunctions.cs" />
+    <Compile Include="Chapter 5\Optional.cs" />
+    <Compile Include="Chapter 5\OutFunctions\OutEvenOdd.cs" />
+    <Compile Include="Chapter 5\OutFunctions\OutParameter.cs" />
+    <Compile Include="Chapter 5\OutFunctions\OutSyntax.cs" />
+    <Compile Include="Chapter 5\Parameter.cs" />
+    <Compile Include="Chapter 5\RefFunctions\DoubleTheValue.cs" />
+    <Compile Include="Chapter 5\RefFunctions\RefPower.cs" />
+    <Compile Include="Chapter 5\RefFunctions\RefSwapping.cs" />
+    <Compile Include="Chapter 5\RefFunctions\RefSyntax.cs" />
+    <Compile Include="Chapter 5\RETURNTYPE.cs" />
+    <Compile Include="Chapter 5\VoidFunctions.cs" />
     <Compile Include="MainRunner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
